@@ -1,0 +1,27 @@
+Assignment Solution for Lecture 1
+1. Create a folder from the terminal at any place of your choice- mkdir ***
+2. Move into that folder- cd ***
+3. Check what are the contents of that folder- dir
+4. Create a simple text file in that folder from the terminal- type NUL > ***.txt
+5. Come out of that folder- cd..
+6. Delete the folder- rmdir *** /s  To remove file use del ***.txt
+7. Repeat steps 1-5 again ( You should have a folder with a single text file in it at the end of the steps )
+8. Initialize a git repository in your folder- git init
+9. Connect this folder to a git repository in your github -
+git add .
+git commit -m "msg"
+git push origin master
+
+10. Add some changes to the text file you have in the folder, stage it, commit it and push it to the remote repository
+make changes to file
+git add .
+git commit -m "msg"
+git remote add origin https://github.com/vatsal-thakor-aui-fsb-1/attainu.git
+
+10. Your partner would have done the same, now there are two repositories between you two. So you'll take a pull/clone of the other person's repository and make changes to it, and so will the other person with your repository, and push these changes. Practice like this with groups of people working on the same repository
+
+git clone https://github.com/veena-bakhtar-aui-fsb-1/Training-Attainu.git
+make changes to file
+git add .
+git commit -m "msg"
+git push origin master

@@ -1,0 +1,19 @@
+Assignment for Lecture 1
+1. Create a folder from the terminal at any place of your choice
+2. Move into that folder
+3. Check what are the contents of that folder
+4. Create a simple text file in that folder from the terminal
+5. Come out of that folder
+6. Delete the folder
+7. Repeat steps 1-5 again ( You should have a folder with a single text file in it at the end of the steps )
+8. Initialize a git repository in your folder
+9. Connect this folder to a git repository in your github
+10. Add some changes to the text file you have in the folder, stage it, commit it and push it to the remote repository
+10. Your partner would have done the same, now there are two repositories between you two. So you'll take a pull/clone of the other person's repository and make changes to it, and so will the other person with your repository, and push these changes. Practice like this with groups of people working on the same repository
+
+Good resources on Command line / terminal commands and git
+1. https://www.youtube.com/watch?v=x3YfYVVTYvw -> Unix(Mac, Linux) Specific
+2. https://www.youtube.com/watch?v=oxuRxtrO2Ag -> General
+3. https://www.youtube.com/watch?v=MBBWVgE0ewk&list=PL6gx4Cwl9DGDV6SnbINlVUd0o2xT4JbMu -> Windows
+4. https://www.youtube.com/watch?v=SWYqp7iY_Tc -> Git
+5. https://www.youtube.com/watch?v=8KCQe9Pm1kg -> Git
