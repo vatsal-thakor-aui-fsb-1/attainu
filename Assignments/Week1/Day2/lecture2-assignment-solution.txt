@@ -1,0 +1,51 @@
+Assignment for Lecture 2
+HTML - CSS
+Break down this page using the approach we took in the class
+https://getbootstrap.com/docs/4.0/examples/blog/#
+You can use this as the sketchboard tool to practice ( No need of any submissions
+of outline structure )
+https://sketchboard.me/
+Create HTML for the above design and submit
+-> please check html-solution.html file on Git
+
+JS
+For the following problems, please breakdown and give precise instructions as to
+how would you go about telling a computer to solve the problem, give as much
+details as possible
+1. Find the square of a given number
+  -Declare variables x and y | var x,y;
+  -store given number to variable x  | x=3;
+  -do multiplication by same number and store output to var y | y=x*x;
+  -display value of variable y | console.log(y)
+
+2. Look at the time of the day and tell whether it's time for breakfast, lunch or
+dinner
+  -get time from system clock in 24 hr format
+  -If hr value is in between of 5-10 display "Breakfast"
+  -if hr value is in between of 11-14 display "Lunch"
+  -if hr value is in between of 19-22 display "Dinner"
+  -else display "not time for food"
+
+3. Given a number, find whether the number is odd or even
+  -Get number that number store in variable
+  -devide that variable by 2
+  -If result has remainder then display "odd number"
+  -else display "even number"
+
+4. Find out whether a given number or a string is palindrome(something that looks
+the same reading straight or in reverse)
+  -store given number or sting to variable
+  -reverse that number or string and store it into another variable
+  -compare both value of both variable
+  -If value match then display "palindrome"
+  -else display "not palindrome"
+
+5. Find the 10th number of a fibonacci series(research about this)
+  -Initialize two variables x,y,counter and store value 0,1,3 in both variables accordingly, declare z and counter variable
+  -display value of x,y variables
+  -Loop until counter = 9
+	x + y = z;
+	display z;
+	initialize x=y; y=z;
+	counter++;
+
