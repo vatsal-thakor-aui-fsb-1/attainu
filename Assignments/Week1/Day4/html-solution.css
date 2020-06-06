@@ -1,0 +1,55 @@
+.wrapper{
+    width:90%;
+    margin:auto;
+}
+#top-header > *{
+    display: inline-block;
+    vertical-align: middle;
+}
+#bottom-header > *{
+    display: inline;
+    padding:10 24px;
+}
+header a{
+    text-decoration: none;
+    color:gray;
+}
+#large{
+    font-size: 35px;
+    color: black;
+}
+#main-banner{
+    background-color: #343a40;
+    padding:1px 10px 26px 10px;
+}
+#main-banner >*{
+    width: 50%;
+    color: white;
+}
+.card{
+    width:50%;
+    float: left;
+}
+
+.blue{
+    color: blue;
+}
+.green{
+    color:green;
+}
+
+#left-content{
+    width: 70%;
+    float: left;
+    padding-right: 
+}
+#right-content{
+    width:30%;
+    float:left;
+}
+#sub-section{
+    clear: both;
+}
+footer{
+    text-align: center;
+}
