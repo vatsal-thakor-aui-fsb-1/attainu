@@ -45,19 +45,33 @@ console.log("even number");  //else display "even number"
 }
 4. Find out whether a given number or a string is palindrome(something that looks
 the same reading straight or in reverse)
--Remaining Task...
-  -store given number or sting to variable
-  -reverse that number or string and store it into another variable
-  -compare both value of both variable
-  -If value match then display "palindrome"
-  -else display "not palindrome"
+var x="ab",y;
+  if(typeof x=="number"){
+      y=x.toString().split('').reverse().join('');
+      y=parseInt(y);
+      if(x===y){
+          console.log("Palindrom number");
+      }
+      else{
+        console.log("not Palindrom number");
+      }
+  }
+  else{
+    y=x.split('').reverse().join('');
+    if(x==y){
+      console.log("Palindrom string");
+    }
+    else{
+      console.log("not Palindrom string");
+    }
+  }
 
 5. Find the 10th number of a fibonacci series(research about this)
-var x=0,y=1,counter=3,z;  //Initialize two variables x,y,counter and store value 0,1,3 in both variables accordingly, declare z and counter variable
-console.log(x,y);  //display value of x,y variables
-for(counter=3;counter>=9;counter++){  //Loop until counter = 9
-z=x+y;
-console.log(z);
-x=y;y=z;
-}
+  var x=0,y=1,counter=3,z;  //Initialize two variables x,y,counter and store value 0,1,3 in both variables accordingly, declare z and counter variable
+  console.log(x,y);  //display value of x,y variables
+  for(counter=3;counter<=9;counter++){  //Loop until counter = 9
+  z=x+y;
+  console.log(z);
+  x=y;y=z;
+  }
 
